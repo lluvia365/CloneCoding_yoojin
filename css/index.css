@@ -18,12 +18,13 @@ a { color:#333; text-decoration: none }
     width:1200px;
     margin:auto;
     display: flex;
+    position: relative;
 }
 
 #logo {
     width:200px;
     height: 100px;
-    margin:auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,8 @@ a { color:#333; text-decoration: none }
 #navi ul { list-style: none; padding:0 }
 
 #menu {
-    display: flex; width:800px;
+    display: flex;
+    width:800px;
 }
 
 .main {
@@ -51,24 +53,29 @@ a { color:#333; text-decoration: none }
     position: relative;
 }
 
-.main:hover {
-    background:#5b9bd5;
-}
+.main:hover { background:#5b9bd5 }
 
-.main>a { color:#FFF }
+.main>a { 
+    color:#FFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 .subMenu {
     position: absolute;
-    top:100%;
+    top:100%; left:0;
     width:100%;
-    background:rgba(0,0,0,.7);
+    background:#ff5050;
+    z-index: 9;
 }
 
 #black {
     position: absolute;
-    top:100%;
+    top:100%; left:0;
     width:100%;
-    background:rgba(0,0,0,.7)
+    height:150px;
+    background:rgba(0,0,0,.7);
+    display: 
 }
 
 .sub {
