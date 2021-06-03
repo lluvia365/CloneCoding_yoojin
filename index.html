@@ -17,12 +17,12 @@
 
 </head>
 
-<body>
+<body onLoad="playSlide()">
     
-    <header id="header">
-    
-        <div id="inBox">
-            
+    <div id="container">
+        
+        <header id="header">
+                
             <div id="logo"><a href="#">
                 <img src="images/logo-1.jpg" rel="로고" />
                 </a></div>
@@ -60,22 +60,108 @@
                             <li class="sub"><a href="#">홍보자료실</a></li>
                     </ul>  <!-- .subMenu -->
                     </li>  <!-- .main -->    
-                    
-                <div id="black"></div>    
+                 
                 </ul>  <!-- #menu -->
             </div>  <!-- #navi -->
-        </div>  <!-- #inBox -->
+        
+        <div id="black"></div>   
     </header>
             
-    <div id="slideB">
-        
-                
-                
-    </div>  <!-- #slideB -->
-
             
+        <section id="secB">
+            
+            <div id="slideBox"> <a href="#"><img src="images/slide1.jpg" alt="슬라이드1" class="slide" /></a>
+                <a href="#"><img src="images/slide2.jpg" alt="슬라이드2" class="slide" /></a>
+                <a href="#"><img src="images/slide3.jpg" alt="슬라이드3" class="slide" /></a>
+            </div>
+                
+        </section>
+            
+            
+        <section id="secC">
+            
+            <div id="notice">
+                <h2>공지사항</h2>
+                <ul id="listBox">
+                    <li class="list"><a href="#" class="text">유진건설, "2018 한국건축문화대상"서 대통령상 쾌거</a><span>2018-10-10</span></li>   
+                    <li class="list"><a href="#" class="text">중흥·동문·금강주택 등 중견사, 6∼7월 수도권 5000가구 분양</a><span>2017-06-09</span></li>    
+                    <li class="list"><a href="#" class="text">정원주 유진건설 사장, 한발 더 다가선 가업승계</a><span>2017-05-22</span></li>    
+                    <li class="list"><a href="#" class="text">유진건설, 밀고 끌고 3조 매출 잉여금 축적</a><span>2017-05-22
+                        </span></li>    
+                </ul>
+                    
+        </div>
+                
+                
+        <div id="gallery">
+            <h2>갤러리</h2>
+            <div id="imgBox">
+                <a href="#"><img src="images/gallery1.jpg" alt="갤러리1" class="gallery" /></a>   
+            <a href="#"><img src="images/gallery2.jpg" alt="갤러리2" class="gallery" /></a> 
+            <a href="#"><img src="images/gallery3.jpg" alt="갤러리3" class="gallery" /></a>    
+        
+            </div>  
+        </div>
+            
+        <div id="box1">
+            <a href="#"><img src="images/banner.jpg" alt="바로가기" /></a>
+        </div>    
+            
+            
+        </section>
+            
+            
+            
+        <footer id="foot">
+            <div id="content1">
+                <a href="#">회사소개</a>,
+                <a href="#">인재채용</a>,
+                <a href="#">개인정보취급방침</a>,
+                <a href="#">무단이메일수집거부</a>        
+            </div>
+            
+            <div id="content2">
+                <p>회사명 : 유진건설 TEL.062-362-7797 FAX.062-362-7798 사업자등록번호 : 광주-가-12345 광주광역시 서구 경열로3 3F 유진건설<br /><br />
+                    copyrightⓒ 유진건설. all rights reserved.</p>
+            
+            </div>
+            
+            <div id="content3">
+                    <form name="form">
+                        <tr>
+                            <td>
+                                <select name="family">
+                                    <option value="1">패밀리사이트</option>
+                                    <option value="2">유진 캐피탈</option>
+                                    <option value="3">유진 보증보험</option>
+                                    <option value="4">유진 인테리어</option>
+                                    <option value="4">유진 건축자재</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </form>            
+            </div>
+        
+        </footer>    
+            
+            
+            
+        
+    </div>  <!-- #container -->
+        
+        
+    <div id="modal">
+        <div id="modalContents">
+            <h2>입주자 모집 홍보관 개소안내</h2>
+            <p>유진건설에서 광주 광천동 목조주택단지 500세대 분양 모델하우스 개소안내
 
-
+                위치 : 서구 광천동 13-1번지
+                내용 : 목조주택단지 홍보관
+                기간 : 19.06.03~ (한달간)</p>
+            <button id="modalClose">&times;닫기</button>
+        </div>
+    </div>  <!-- #modal -->
+       
 
 </body>
 </html>
