@@ -192,17 +192,24 @@ a { color:#333; text-decoration: none }
 }
 
 #content1 {
-    width:600px;
-    line-height: 3rem;
+    width:1000px;
+    line-height: 1.5rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#box4>a { color:#FFF } 
+
+#box4 {
+    width:100%;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #content2 {
-    width:200px;
     height: 100px;
-    display: flex;
-    flex-direction: column;
-    background:#FFF;
 }
 
 
